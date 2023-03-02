@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <script src="./scripts/controllers/effectController.js"></script>
+        <script src="./scripts/components/effectComponent.js"></script>
+        <link rel="stylesheet" href="./styles/style.css"/>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container ">    
+            <div class="row text-align-last-justify">
+                <div class="col">
+                    <h2>Programa para gerenciamento de efeitos</h2>
+                </div>
+                <div class="col">
+                    <div id="toggle">
+                        <input type="checkbox">
+                        <label for="toggle"></label>
+                    </div>                    
+                </div>
+                <div class="col">
+                    <a href="./Pages/edit.html">
+                        <div id="btn-insert" class="insert-button">
+                            <div class="col">
+                                <label>Inserir novo efeito</label>
+                            </div>
+                            <img class="button" src="./contents/imgs/plus.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <h3>Lista de efeitos</h3>
+                </div>
+            </div>
+            <div class="row center" id="effects">
+                
+            </div>
+        </div>
+    </body>
+    <footer>
+        <script src="./scripts/index.js"></script>      
+        <script src="./scripts/base/theme.js"></script>      
+    </footer>
+</html>
