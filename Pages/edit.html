@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <script src="../scripts/base/utils.js"></script>
+        <script src="../scripts/controllers/effectController.js"></script>
+        <script src="../scripts/entities/effect.js"></script>
+        <link rel="stylesheet" href="../styles/style.css"/>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">    
+            <div class="row text-align-last-justify">
+                <div class="col">
+                    <h2>Inserir novo efeito</h2>
+                </div>
+                <div class="col">
+                    <div id="toggle">
+                        <input type="checkbox">
+                        <label for="toggle"></label>
+                    </div>                    
+                </div>
+                <div class="col">
+                    <a href="../index.html">
+                        <div id="btn-insert" class="insert-button">
+                            <div class="col">
+                                <label>Voltar ao início</label>
+                            </div>
+                            <img src="../contents/imgs/home.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="v-align-top col space-line">
+                    <label>* Thumbnail: </label>
+                    <input type="file" id="thumbFile" value="Thumb do efeito" accept="image/jpg, image/jpeg, image/png"/><br>
+                    <label>Nome do efeito: </label><input type="text" id="txtName"><br>
+                    <label>* Audio: </label>
+                    <input type="file" id="audioFile" value="Efeito de audio" accept="audio/mp3, audio/wav, audio/ogg"/><br>
+                    <input type="button" value="Gravar efeito" onclick="uploadEffect()"/>
+                </div>
+                <div class="col center">
+                    <h3 class="title">Prévia do efeito</h3>
+                    <div class="row" id="card">
+                        <div class="col center card">
+                            <img class="thumb" src="../contents/imgs/bg-img.png" id="img">
+                            <h4 id="name">Nome do efeito</h4> 
+                            <audio controls="controls" id="player"></audio>
+                            <div class="row text-align-last-justify">
+                                <div class="col">
+                                    <div class="edit-button">
+                                        <div class="col">
+                                            <label>Editar</label>
+                                        </div>
+                                        <img src="../contents/imgs/edit.png">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="delete-button">
+                                        <div class="col">
+                                            <label>Remover</label>
+                                        </div>
+                                        <img src="../contents/imgs/remove.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <script src="../scripts/editPage.js"></script>
+        <script src="../scripts/base/theme.js"></script>
+    </footer>
+</html>
