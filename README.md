@@ -12,12 +12,13 @@ This project is a support for streamers, you can use this web system to save eff
 
 ## How to configure
 ### 1. Without publish site (local usage)
-1. Get the project compressed in 7z on release page or get full code.
+1. Get the project compressed in 7z on [release page](https://github.com/buenex/StreamDeckOnline/releases) or [get full code](https://github.com/buenex/StreamDeckOnline).
 2. You can put this project in any folder.
 3. Open ***index.html***
 
 ### 2. Publishing site
-1. Use your preffered web host and configure the release from 7z disponibilized here.
+1. Get the project compressed in 7z on [release page](https://github.com/buenex/StreamDeckOnline/releases) or [get full code](https://github.com/buenex/StreamDeckOnline).
+2. Get your preferred webhost and configure the site on it.
 2. Access your website with ***ip*** or ***dns*** configured.
 
 ## Using the system
